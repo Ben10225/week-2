@@ -77,8 +77,8 @@ function maxProduct(nums){
     for(let j=i+1;j<nums.length;j++){
       i==0 && j==1 ? max = nums[i]*nums[j] : null;
       nums[i]*nums[j] >= max ? max = nums[i]*nums[j] : null;
-    }
-  }
+    };
+  };
   console.log(max);
 };
 
@@ -113,7 +113,7 @@ console.log("");
 
 function maxZeros(nums){
   let ans = 0;
-  let ct = 0
+  let ct = 0;
   for(let i=0;i<nums.length;i++){
     nums[i]=="0" ? ct++ : null;
     if(nums[i]=="1"){

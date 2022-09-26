@@ -80,7 +80,6 @@ def maxProduct(nums):
   max = 0
   for i, v in enumerate(nums):
     for j in range(i+1,len(nums)):
-
       if i == 0 and j == 1:
         max = v * nums[j]
       ans = v * nums[j]
