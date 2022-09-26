@@ -46,7 +46,7 @@ function avg(data){
   result.forEach( i => {
     sum += i.salary;
   });
-  console.log("員工平均薪資: ", sum/result.length);
+  console.log("員工平均薪資: ", sum / result.length);
 }; 
 
 console.log("-------  要求二  -------");
