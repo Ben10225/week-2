@@ -6,7 +6,7 @@ def calculate(min, max, step):
     result += i
   print(result)
 
-print("-------  要求一  -------");
+print("-------  要求一  -------")
 calculate(1, 3, 1)
 # 你的程式要能夠計算 1+2+3，最後印出 6 
 calculate(4, 8, 2)

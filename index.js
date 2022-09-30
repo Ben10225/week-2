@@ -97,10 +97,10 @@ console.log("");
 function twoSum(nums, target){
   let index = {};
   for(let i=0;i<nums.length;i++){
-      if(target-nums[i] in index){
-        return [index[target-nums[i]], i]
-      }
-      index[nums[i]] = i;
+    if(target-nums[i] in index){
+      return [index[target-nums[i]], i]
+    }
+    index[nums[i]] = i;
   };
 };
 
